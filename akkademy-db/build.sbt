@@ -12,7 +12,6 @@ libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
 libraryDependencies += "com.typesafe.akka" %% "akka-remote" % "2.5.3"
 libraryDependencies += "com.typesafe.akka" %% "akka-testkit" % "2.5.3" % "test"
 //libraryDependencies += "org.scala-lang.modules" %% "scala-java8-compat" % "0.6.0"
-
 mappings in (Compile, packageBin) ~= { _.filterNot { case (_, name) => Seq("application.conf").contains(name)
 }}
 
