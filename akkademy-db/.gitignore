@@ -1,3 +1,4 @@
+### SBT ###
 dist/*
 target/
 lib_managed/
@@ -7,6 +8,10 @@ project/plugins/project/
 .history
 .cache
 .lib/
+
+### Scala ###
+*.class
+*.log
 
 #EMACS and DS_Store
 *~
